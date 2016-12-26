@@ -14,6 +14,8 @@ http://singularity.lbl.gov/contributing-code
 ```bash
 git checkout master
 git pull upstream master
-git push origin master		# hang in win10
+git push origin master		# really just update my fork.  PR need to be done via web?
+				# really same as just vanilla git push ?
+
 ```
 
