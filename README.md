@@ -1,4 +1,5 @@
 
+
 # prj007
 
 Hello World!
@@ -10,8 +11,9 @@ This is my first project in GitHub :)
 Example workflow for PR:
 http://singularity.lbl.gov/contributing-code
 
-
+```bash
 git checkout master
 git pull upstream master
 git push origin master		# hang in win10
+```
 
