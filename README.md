@@ -22,8 +22,10 @@ update .git/config with upstream repo info:
 git checkout master
 git pull upstream master
 git push origin master		# really just update my fork.  PR need to be done via web?
-				# really same as just vanilla git push ?
-
+                        	# really same as just vanilla git push ?
 ```
 
 
+
+here is a random insignificant change, added to create a PR conflict, 
+going test git pull --rebase...
