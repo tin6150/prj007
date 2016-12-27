@@ -20,7 +20,7 @@ update .git/config with upstream repo info:
 
 ```bash
 git checkout master
-git pull upstream master
+git pull upstream master	# pull updates from upstream into my master repo.
 git push origin master		# really just update my fork.  PR need to be done via web?
                         	# really same as just vanilla git push ?
 ```
@@ -35,3 +35,14 @@ tin6150 did a pull --rebase, created PR that can be merged automatically.
 but after getting the PR, but before accepting/merging it, 
 made this change to README.md 
 conflict galore? :)
+
+## summary
+
+overall, seems that when working on a forked branch, 
+run 
+`git pull upstream master`, 
+`git pull --rebase`
+and make sure all changes looks good locally.
+then run `git commit` and `git push` to my own git master.
+at this point, creating a PR with upstream should produce a PR that can be merged automatically w/o conflicts.
+
