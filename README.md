@@ -29,3 +29,12 @@ git push origin master		# really just update my fork.  PR need to be done via we
 
 here is a random insignificant change, added to create a PR conflict, 
 going test git pull --rebase...
+
+## summary
+
+overall, seems that when working on a forked branch, 
+run a `git pull --rebase`
+and make sure all changes looks good locally.
+then run `git commit` and `git push` to my own git master.
+at this point, creating a PR with upstream should produce a PR that can be merged automatically w/o conflicts.
+
